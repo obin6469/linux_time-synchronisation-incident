@@ -92,7 +92,6 @@ Leap status     : Normal
 Wed Jul 22 01:43:29 AM CEST 2026
 [root@servera tmp]#
 
-
 ## Conclusion
 
 The incident was caused by a large difference between the local Linux system clock and the time provided by the NTP server.
@@ -100,3 +99,4 @@ The incident was caused by a large difference between the local Linux system clo
 Although the NTP service was active and an NTP source was available, the system clock was approximately 18 hours behind.
 
 The issue was resolved by forcing Chrony to immediately correct the clock
+
